@@ -1,0 +1,17 @@
+name: demoworkflow
+on:
+  push:
+    branches:
+      - main
+jobs:
+  basic-workflow-job:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: run node.js version controll
+        run: echo "node --version"
+
+      - name: run npm version controll
+        run: echo "npm --version"
