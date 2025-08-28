@@ -2,6 +2,7 @@ name: Basic Flow
 
 on:
   push:
+    runs-on:
     branches:
       - main
   workflow_dispatch:

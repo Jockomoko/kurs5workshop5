@@ -11,7 +11,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: run node.js version controll
-        run: echo "node --version"
+        run: echo "node -v"
 
       - name: run npm version controll
-        run: echo "npm --version"
+        run: echo "npm -v"
