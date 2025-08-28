@@ -1,0 +1,17 @@
+name: Basic Flow
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  basic-workflow-job:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout
+
+      - name: Run command
+        run: echo "Hello! This workflow run to main"
