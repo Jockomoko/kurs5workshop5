@@ -5,10 +5,19 @@ on:
       - main
 jobs:
   basic-workflow-job:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+
+      - name: node version
+        run: actions/setup-node@v3
+
+      - name: npm install
+        run: npm install
+
+      - name: npm run build
+        run: npm run build
 
       - name: run node.js version controll
         run: node -v
