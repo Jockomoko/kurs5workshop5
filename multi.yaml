@@ -1,0 +1,11 @@
+---
+user:
+  name: "Anna Andersson"
+  email: "anna@example.com"
+  active: true
+---
+product:
+  id: 101
+  name: "Laptop"
+  price: 14999
+  in_stock: true

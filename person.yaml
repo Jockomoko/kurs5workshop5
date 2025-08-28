@@ -1,0 +1,26 @@
+-Leo:
+  name: Leo
+  age: 46
+  profession: developer
+-Kalle:
+  name: Kalle
+  age: 32
+  profession: IT
+#favorit språket
+favoriteLanguage: -C++
+  -C#
+  -C
+#book
+book:
+  title: "Exempelbok"
+  author: "Anna Andersson"
+  publication:
+    publisher: "Exempel Förlag"
+    year: 2025
+server:
+  #name of the server
+  name: server1
+  #ip address to the server
+  ip: 192.168.1.23
+  #port number to the server
+  port: 80
