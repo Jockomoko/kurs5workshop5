@@ -1,3 +1,5 @@
 {
-    "build": "echo \"Hello from build step!\""
+    "scripts": {
+        "build": "echo \"Hello from build step!\""
+    }
 }
